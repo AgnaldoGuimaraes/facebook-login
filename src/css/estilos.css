@@ -46,6 +46,7 @@ form input {
     color: white;
     background-color: #556c9e;
     margin-right: 45px;
+    cursor: pointer;
 }
 
 .box h6 {
@@ -53,7 +54,7 @@ form input {
     font-family: helvetica;
     position: absolute;
     margin-top: 69px;
-    margin-left: 1410px;
+    margin-left: 1425px;
     color:rgba(250, 250, 250, 0.6);
 }
 .box a {
@@ -61,7 +62,7 @@ form input {
     font-family: helvetica;
     position: absolute;
     margin-top: 69px;
-    margin-left: 1595px;
+    margin-left: 1610px;
     color:rgba(250, 250, 250, 0.6);
     text-decoration: none;
     cursor: pointer;
@@ -79,18 +80,6 @@ h1 {
     font-family: helvetica;
 }
 
-h2 {
-    font-size: 48px;
-    font-family: helvetica;
-    color: #000000;
-    position: absolute;
-    margin-left: 1150px;
-    margin-top:90px;
-    height: 400px;
-    width: 600px;
-    
-}
-
 h3 {
     font-size: 35px;
     font-family: helvetica;
@@ -103,15 +92,6 @@ h3 {
     
 }
 
-p {
-    font-size: 30px;
-    font-family: helvetica;
-    color: #000000;
-    position: absolute;
-    margin-left: 1150px;
-    margin-top: 150px;
-}
-
 .imagem{
     width: 52%;
     height: 35%;
@@ -119,91 +99,88 @@ p {
     margin-left: 40px;
 }
 
-.cadastro {
-    display: inline;
-    position: absolute;
-    width: 700px;
-    height: 230px;
-    margin-top: 180px;
-    margin-left: 90px;
-
-}
-
-.cadastro input{
-    width: 700px;
-    height: 40px;
-}
-
-.cadastro .metade{
-    width: 320px;
-    margin-left: 30px;
+.formulario{
+    position:absolute;
     display: inline-block;
+    box-sizing: border-box;
+    width: 500px;
+    height: 700px;
+    margin-left: 120px;
+    margin-top: 90px;
+
 }
 
-.cadastro .outrametade{
-    width: 670px;
-    margin-right: 0px;
+
+fieldset {
+    height: 700px;
+    box-sizing: content-box;
+    border: none;
+
 }
 
-.data {
-    float: right;
-    position: absolute;
-    margin-top: -100px;
-    margin-left: 1155px;
-}
-
-h4 {
-    font-size: 28px;
+legend {
+    font-size: 40px;
     font-family: helvetica;
-    margin-bottom: 7px;
+    font-weight: bold;
 }
 
-.sexo{
-    position:initial;
-    height: 400px;
-    width: 400px;
-    float: right;
-    margin-top: 490px;
-    margin-right: 350px;
-
+h2{
+    font-size: 33px;
+    font-family: helvetica;
+    font-weight:none;
 }
 
 .primeiro {
-    float: left;
-    height: 15px;
-    width: 40px;
-    margin: 4px -5px;
+    margin-right: 7px;
+    margin-left: 0px;
+    width: 328px;
+    height: 40px;
 }
 
-.segundo {
-    float: left;
-    height: 15px;
-    width: 40px;
-    margin: 3px 105px;
+.segundo{
+    width: 670px;
+    height: 40px;
+    margin-bottom: 10px;
 }
 
-.feminino {
-    font-size: 22px;
+h4{
+    font-size: 30px;
     font-family: helvetica;
-    margin-left: -250px;
-
+    margin-bottom: 5px;
 }
 
-.masculino {
-    font-size: 22px;
-    font-family: helvetica;
-    margin-left: 45px;
+select{
+    width: 60px;
+    height: 20px;
+    margin-bottom: 10px
 }
 
-.butao {
-    font-size: 22px;
-    font-family: helvetica;
-    font-weight: bold;
-    color: white;
-    background-color: #0cb40c;
-    margin-left: 1160px;
+.sexo{
+    display: inline block;
+}
+
+.sexo input{
     position:absolute;
-    width: 260px;
-    border: 1px rgb(176, 183, 185) solid;
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.sexo span{
+    font-size: 17px;
+    font-family: helvetica;
+    margin-left: 30px;
+
+}
+
+.botao input{
+    font-size: 18px;
+    font-family: helvetica;
+    float: left;
+    color: white;
+    background-color: rgb(95, 234, 95);
+    border: rgb(33, 225, 33);
     cursor: pointer;
 }
+
