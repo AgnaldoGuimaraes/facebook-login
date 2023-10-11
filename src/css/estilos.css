@@ -194,3 +194,16 @@ h4 {
     font-family: helvetica;
     margin-left: 45px;
 }
+
+.butao {
+    font-size: 22px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: #0cb40c;
+    margin-left: 1160px;
+    position:absolute;
+    width: 260px;
+    border: 1px rgb(176, 183, 185) solid;
+    cursor: pointer;
+}
